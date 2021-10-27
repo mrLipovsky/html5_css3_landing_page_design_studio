@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(/HTML_CSS/html5_css3/html5_css3_landing_page_new/images/Designs3_01.svg); */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 1600px;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(56, 73, 88); */
+    position:sticky;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+.logo img{
+    height: 6rem;
+    margin: 1rem;
+}
+
+.navigation_menu {
+    display: flex; 
+    align-items: center;
+    list-style-type: none;
+    height: 6rem;
+    margin: 1rem;
+}
+
+.navigation_menu li a{
+    color: rgb(32, 32, 32);
+    text-decoration-line: none;
+    height: 6rem;
+    margin: 2rem;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.navigation_menu li a::before{
+    text-decoration-line: none;
+}
+
+.buttons_nav_menu {
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+}
+.button_one_nav_menu button {
+    border:none;
+    background-color: none;
+    margin:0 10px;
+    width: 5rem;
+    height:2rem;
+}
+
+.button_two_nav_menu button {
+    background-color: black;
+    border:none;
+    margin:0 10px;
+    width: 5rem;
+    height:2rem;
+}
+
+.button_one_nav_menu a{
+    color: rgb(32, 32, 32);
+    text-decoration-line: none;
+    font-weight: 900;
+    font-size: 1.2em;
+    margin:0 10px;
+    width: 5rem;
+    height:2rem;
+}
+
+.button_two_nav_menu button a {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.section{
+    display:grid;
+    grid-auto-flow: column;
+    justify-content:space-around;
+    margin-top: 5rem;
+    
+}
+
+.graphic {
+    background-image: url(/HTML_CSS/html5_css3/html5_css3_landing_page_new/images/graphic_one.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height:700px;
+    text-align: center;
+}
+
+.section_two {
+    background-image: url(/HTML_CSS/html5_css3/html5_css3_landing_page_new/images/graphic_two.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height:700px;
+    text-align: center;
+}
+
+.button_section_one button{
+    background-color: black;
+    border:none;
+    margin:2rem;
+    width: 15rem;
+    height:6rem;
+}
+
+.button_section_one button a {
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.button_footer {
+    border:none;
+    margin:1rem;
+    background-color:none;
+}
+
+.button_footer a {
+    color: rgb(32, 32, 32);
+    text-decoration-line: none;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.logo_contact_link {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo_footer img{
+    height: 6rem;
+    margin-left: 8rem;
+}
+.sign_up {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-left: 8rem;
+    margin-top: 8rem;
+}
+
+#email, #password, #meno {
+    font-weight: 900;
+    font-size: 1.5em;
+    color:white;
+    width:15rem;
+    height:3rem;
+    margin: 1rem;
+    background-color: rgb(31, 31, 31);
+}
+
+label {
+        font-weight: 900;
+        font-size: 2em;
+        width:15rem;
+        height:3rem;
+        margin: 1rem;
+}
+
+input {
+    width: 100%;
+}
+
+.button_sing_up {
+    border:none;
+    margin:1rem;
+    background-color:none;
+}
+
+.button_sing_up a {
+    margin-left: 8rem;
+    color: rgb(32, 32, 32);
+    text-decoration-line: none;
+    font-weight: 900;
+    font-size: 2em;
+}

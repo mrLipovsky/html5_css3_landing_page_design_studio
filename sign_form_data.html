@@ -1,0 +1,14 @@
+<h3>Search</h3>
+<p>Data odeslaná formulářem jsou zde:</p>
+<div id="results"></div>
+<a href="index.html">Back to Home</a>
+
+<script>
+    const vysledky = document.getElementById("results");
+    new URLSearchParams(window.location.search).forEach((val, name) => {
+        vysledky.append(`${name}: ${val}`);
+        vysledky.append(document.createElement('br'));
+    });
+
+
+</script>
